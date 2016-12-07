@@ -9,6 +9,7 @@
 
 - [Overview of Android Project Structure](#overview-of-android-project-structure)
   - [File or directory](#file-or-directory)
+    - [AndroidManifest](#androidmanifest)
   - [Basic Login Level B](#adjust-tab-space)
   - [Basic Login Level C](#commit-history-by-author)
   - [Basic Login Level D](#cloning-a-repository)
@@ -163,6 +164,11 @@
 ## File or directory
 <p align="center">
   <img src="https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/1.png">
+</p>
+
+## AndroidManifest
+<p align="center">
+  <img src="https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/2.png">
 </p>
 
 
