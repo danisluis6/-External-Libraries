@@ -10,8 +10,17 @@
 - [Overview of Android Project Structure](#overview-of-android-project-structure)
   - [File or directory](#file-or-directory)
     - [AndroidManifest](#androidmanifest)
-  - [Basic Login Level B](#adjust-tab-space)
-  - [Basic Login Level C](#commit-history-by-author)
+    - [Java](#java)
+    - [res/drawable](#res/drawable)
+    - [res/layout](#res/layout)
+    - [res/menu](#res/menu)
+    - [res/mipmap](#res/mipmap)
+
+
+  - [Android Activity Lifecycle](#android-activity-lifecycle)
+    - [Activity](#activity)
+    - [Practise Activity](#practise-activity)
+
   - [Basic Login Level D](#cloning-a-repository)
   - [Basic Login Level E](#branch)
     - [E1](#compare-all-branches-to-another-branch)
@@ -171,6 +180,42 @@
   <img src="https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/2.png">
 </p>
 
+# Java
+<p align="center">
+  <img src="https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/3.png">
+</p>
 
+#res/drawable
+<p align="center">
+  <img src="https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/4.png">
+</p>
+
+#res/layout
+<p align="center">
+  <img src="https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/5.png">
+</p>
+
+#res/menu
+<p align="center">
+  <img src="https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/6.png">
+</p>
+
+#res/mipmap
+<p style="color:blue; text-align:center">You need to understand  more about the images in the mipmap folder, see the image below, there is an image file in the mipmap folder.</p>
+<p align="center">
+  <img src="https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/7.png">
+</p>
+
+One of the problems I occasionally come across while using Android apps is that I see images that are blurry, pixelated, or stretched awkwardly. The solution to this problem is to create a drawable folder for each of the densities that Android supports, and place the correctly scaled image inside each folder. There are 6 different density ranges (measured in dots per inch) that Android supports:
+     - ldpi: Low-density screens; approximately 120dpi
+     - mdpi: Medium-density (on traditional HVGA) screens; approximately 160dpi
+     - hdpi: High-density screens; approximately 240dpi
+     - xhdpi: Extra high-density screens; approximately 320dpi. Added in API Level 8
+     - nodpi: This can be used for bitmap resources that you do not want to be scaled to match the device density
+     - tvdpi: Screens somewhere between mdpi and hdpi; approximately 213dpi. This is not considered a “primary” density group. It is mostly intended for televisions and most apps shouldn’t need it—providing mdpi and hdpi resources is sufficient for most apps and the system will scale them as appropriate. This qualifier was introduced with API level 13.
+
+#Android Activity Lifecycle
+#Activity
+Activity is a Java code that supports a screen or UI. In other words, building block of the user interface is the activity. Activity class is a pre-defined class in Android and every application which has UI must inherit it to create window.
 
 
