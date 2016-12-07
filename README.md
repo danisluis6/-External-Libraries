@@ -161,8 +161,19 @@
     <color name="Black">#000000</color>
 
 ## File or directory
-![alt tag](https://github.com/danisluis6/GUI/blob/master/Login/1.png)
+![alt tag](https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/1.png)
+Normal Text
 
+<p align="center">
+  <b>Some Links:</b><br>
+  <a href="#">Link 1</a> |
+  <a href="#">Link 2</a> |
+  <a href="#">Link 3</a>
+  <br><br>
+  <img src="https://github.com/danisluis6/Android-External-Libraries/blob/master/SourcesCode/1.png">
+</p>
+
+Normal text
 
 
 
