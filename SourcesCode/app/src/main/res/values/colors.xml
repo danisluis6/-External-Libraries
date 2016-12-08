@@ -7,4 +7,8 @@
     <color name="bgSkypeTM">#2B323C</color>
     <color name="titleSkypeTM">#00AFF0</color>
     <color name="white">#FFFFFF</color>
+
+    <!-- Your App -->
+    <color name="bgYourApp">#47B7B8</color>
+
 </resources>
