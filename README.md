@@ -216,6 +216,6 @@ One of the problems I occasionally come across while using Android apps is that 
 
 #Android Activity Lifecycle
 #Activity
-Activity is a Java code that supports a screen or UI. In other words, building block of the user interface is the activity. Activity class is a pre-defined class in Android and every application which has UI must inherit it to create window.
+
 
 
