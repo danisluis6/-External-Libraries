@@ -8,15 +8,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".aboutactivity.Level1Activity">
+        <activity android:name=".Main1Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".aboutactivity.Level0Activity"></activity>
+        <activity android:name=".aboutactivity.Level0Activity" />
+        <activity android:name=".aboutactivity.Level1Activity" />
+        <activity
+            android:name=".aboutmanifest.Level2Activity"
+            android:label="@string/app_demo"></activity>
+        <activity android:name=".aboutintent.Level3Activity">
+
+        </activity>
     </application>
 
 </manifest>
