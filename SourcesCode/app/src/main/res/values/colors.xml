@@ -10,5 +10,6 @@
 
     <!-- Your App -->
     <color name="bgYourApp">#47B7B8</color>
-
+    <color name="warnYourApp">#225A5A</color>
+    <color name="ypusername">#747C79</color>
 </resources>

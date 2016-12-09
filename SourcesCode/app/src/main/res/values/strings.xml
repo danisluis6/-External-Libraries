@@ -3,4 +3,11 @@
     <string name="remember">Remember me</string>
     <string name="warningaccount">Don\'t have an account \?</string>
     <string name="register">Register here</string>
+
+    <!-- Login if you Have an Account
+         You copy from it to paste in this area
+    -->
+    <string name="warnYourApp">Login if you Have an Account</string>
+    <string name="ypusername">Username</string>
+    <string name="yppassword">••••••••</string>
 </resources>

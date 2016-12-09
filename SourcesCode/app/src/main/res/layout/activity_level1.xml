@@ -8,8 +8,155 @@
     tools:context="com.example.enclaveit.tutorials.aboutactivity.Level1Activity">
 
     <ImageView
+        android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/logoyourapp"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Your App"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/warnYourApp"
+        android:textColor="@color/warnYourApp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:padding="4dp"
+        android:background="@color/white"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="text"
+            android:lines="1"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:textColorHint="@color/ypusername"
+            android:hint="@string/ypusername"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="4dp"
+        android:background="@color/white"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textPassword"
+            android:lines="1"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:textColorHint="@color/ypusername"
+            android:hint="@string/yppassword"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="left"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"/>
+        <TextView
+            android:textSize="18dp"
+            android:textStyle="normal"
+            android:text="@string/remember"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="18dp"
+            android:text="Register Now"
+            android:textColor="@color/warnYourApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18dp"
+            android:text="|"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/warnYourApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18dp"
+            android:text="Register Now"
+            android:textColor="@color/warnYourApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:padding="10dp"
+        android:background="@drawable/gradient_button"
+        android:text="ENTER"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </RelativeLayout>
